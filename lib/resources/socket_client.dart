@@ -8,7 +8,7 @@ class SocketClient {
 
   // 192.168.1.7
   SocketClient._internal() {
-    socket = IO.io('http://192.168.1.7:3000', <String, dynamic>{
+    socket = IO.io('https://tictactoe-backend-dx28.onrender.com', <String, dynamic>{
       'transports': ['websocket'],
       'autoConnect': false,
     });
