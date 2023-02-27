@@ -125,6 +125,6 @@ mongoose.connect(DB).then(() => {
     console.log(e);
 });
 
-server.listen(PORT, "0.0.0.0", () => {
+server.listen(PORT, "https://tictactoe-backend-dx28.onrender.com", () => {
     console.log(`server started ${PORT}`)
 });
